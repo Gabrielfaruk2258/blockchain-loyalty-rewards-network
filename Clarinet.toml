@@ -1,12 +1,16 @@
 [project]
 name = "blockchain-loyalty-rewards-network"
 description = "Blockchain project: blockchain-loyalty-rewards-network"
-authors = ["Gabrielfaruk2258 <>"]
+authors = ["Automated Builder <automation@blockchain.dev>"]
 telemetry = false
 cache_dir = ".clarinet"
+requirements = []
 
-[contracts.main-contract]
-path = "contracts/main-contract.clar"
-clarinet_version = "1.0.0"
+[contracts.merchant-rewards-gateway]
+path = "contracts/merchant-rewards-gateway.clar"
+depends_on = []
 
-[requirements]
+[contracts.universal-points-ledger]
+path = "contracts/universal-points-ledger.clar"
+depends_on = []
+
