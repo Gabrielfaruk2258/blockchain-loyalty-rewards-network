@@ -1,0 +1,12 @@
+[project]
+name = "blockchain-loyalty-rewards-network"
+description = "Blockchain project: blockchain-loyalty-rewards-network"
+authors = ["Gabrielfaruk2258 <>"]
+telemetry = false
+cache_dir = ".clarinet"
+
+[contracts.main-contract]
+path = "contracts/main-contract.clar"
+clarinet_version = "1.0.0"
+
+[requirements]
